@@ -24,7 +24,9 @@ a > span:hover {
 }
 
 .header__icon {
-    width: 80px;
+    /* width: 80px; */
+    height: 30px;
+    width: 150px;
     cursor: pointer;
 }
 
