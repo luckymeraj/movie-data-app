@@ -33,3 +33,18 @@ a > span:hover {
 .user__avatar {
     font-size: 2rem;
 }
+
+@media only screen and (min-width: 375px) {
+    .header__icon {
+        /* width: 80px; */
+        height: 30px;
+        width: 75px;
+        cursor: pointer;
+    }
+    a > span{
+        margin: 0 10px;
+        font-size: .8rem;
+        cursor: pointer;
+        color: white;
+    }
+  }
